@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\fosphor">
+      <UniqueIdentifier>{236e1992-aa48-482d-8a10-5d6fdcd67cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fosphor">
+      <UniqueIdentifier>{60e51a47-b74d-4352-807c-fd74bf35c975}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fifo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gr_complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FFTWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\fosphor.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\axis.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\cl.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\gl.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\cl_compat.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\cl_platform.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\gl_platform.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\gl_cmap.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\gl_cmap_gen.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\gl_font.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\llist.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\private.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\resource.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="fosphor\resource_internal.h">
+      <Filter>Header Files\fosphor</Filter>
+    </ClInclude>
+    <ClInclude Include="qt_sink_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fifo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\fosphor.cpp">
+      <Filter>Source Files\fosphor</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\axis.cpp">
+      <Filter>Source Files\fosphor</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\cl.cpp">
+      <Filter>Source Files\fosphor</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\gl.cpp">
+      <Filter>Source Files\fosphor</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\cl_compat.cpp">
+      <Filter>Source Files\fosphor</Filter>
+    </ClCompile>
+    <ClCompile Include="FFTWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\resource.cpp">
+      <Filter>Source Files\fosphor</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\gl_font.cpp">
+      <Filter>Source Files\fosphor</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\gl_cmap_gen.cpp">
+      <Filter>Source Files\fosphor</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\gl_cmap.cpp">
+      <Filter>Source Files\fosphor</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\resource_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetFosphor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="WidgetFosphor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
