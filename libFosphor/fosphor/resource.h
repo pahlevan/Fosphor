@@ -29,6 +29,10 @@
 /*! \file resource.h
  *  \brief Resource management header
  */
+#include <stdint.h>
+
+const uint8_t* resource_get_font();
+
 
 const void *resource_get(const char *name, int *len);
 void        resource_put(const void *r);

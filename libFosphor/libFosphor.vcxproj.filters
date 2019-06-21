@@ -83,9 +83,6 @@
     <ClInclude Include="fosphor\resource_internal.h">
       <Filter>Header Files\fosphor</Filter>
     </ClInclude>
-    <ClInclude Include="qt_sink_c.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="fifo.cpp">
@@ -121,11 +118,14 @@
     <ClCompile Include="fosphor\gl_cmap.cpp">
       <Filter>Source Files\fosphor</Filter>
     </ClCompile>
-    <ClCompile Include="fosphor\resource_data.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="WidgetFosphor.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fosphor\resource_data.cpp">
+      <Filter>Source Files\fosphor</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_data_droid_sans_mono_dotted_.cpp">
+      <Filter>Source Files\fosphor</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -64,7 +64,7 @@ private:
 	bool d_frozen;
 
 	/* fosphor core */
-	fifo *d_fifo;
+
 
 	struct fosphor *d_fosphor;
 	struct fosphor_render *d_render_main;

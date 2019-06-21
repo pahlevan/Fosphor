@@ -35,7 +35,7 @@ Fosphor::Fosphor(QWidget *parent)
 
 void Fosphor::feed_data()
 {
-	std::vector<gr_complex> ssss_vec(10'000);
+	std::vector<gr_complex> ssss_vec(2*64*1024);
 
 	for (auto &it : ssss_vec)
 	{

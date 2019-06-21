@@ -1,4 +1,5 @@
 #include "FFTWindow.h"
+#include <stdexcept>
 
 namespace fft {
 #define IzeroEPSILON 1E-21               /* Max error acceptable in Izero */

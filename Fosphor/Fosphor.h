@@ -2,6 +2,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_Fosphor.h"
+
 #include <QTimer>
 
 class WidgetFosphor;

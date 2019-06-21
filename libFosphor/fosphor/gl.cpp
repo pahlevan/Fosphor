@@ -262,8 +262,9 @@ fosphor_gl_init(struct fosphor *self)
 		rv = -ENOMEM;
 		goto error;
 	}
-
-	font_data = resource_get("DroidSansMonoDotted.ttf", &len);
+	len = 117696;
+	font_data = resource_get_font();
+	// font_data = resource_get("DroidSansMonoDotted.ttf", &len);
 	if (!font_data) {
 		rv = -ENOENT;
 		goto error;

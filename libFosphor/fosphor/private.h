@@ -31,10 +31,10 @@
  */
 
 
-#define FOSPHOR_FFT_LEN_LOG	10
-#define FOSPHOR_FFT_LEN		(1<<FOSPHOR_FFT_LEN_LOG)
+constexpr int FOSPHOR_FFT_LEN_LOG = 10;
+constexpr int FOSPHOR_FFT_LEN = (1 << FOSPHOR_FFT_LEN_LOG);
 
-#define FOSPHOR_FFT_MULT_BATCH	16
+#define FOSPHOR_FFT_MULT_BATCH	2
 #define FOSPHOR_FFT_MAX_BATCH	1024
 
 struct fosphor_cl_state;
